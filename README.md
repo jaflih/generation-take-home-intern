@@ -1,6 +1,6 @@
-# Generation Take-Home Coding Challenge UPDATE REACT VERSION
+# UPDATE Generation Take-Home Coding Challenge
 
-The original project is (here)[https://github.com/digital-generation/generation-take-home-intern]
+The original project is [here](https://github.com/digital-generation/generation-take-home-intern)
 
 In this repertory, the project is updating to use the last React version (18.2.0)
 
