@@ -1,3 +1,45 @@
 .App {
   margin: 15px;
 }
+
+.marker {
+  width: 30px;
+  height: 30px;
+  border: 5px solid rgb(163, 214, 128);
+  border-radius: 40px;
+  background-color: white;
+  text-align: center;
+  color: rgb(63, 81, 181);
+  font-size: 16px;
+  font-weight: bold;
+  padding: 4px;
+  cursor: pointer;
+  transition: all 1s;
+}
+
+.marker:hover {
+  background-color: rgb(63, 81, 181);
+  color: white;
+}
+
+.marker-info {
+  transition: all 10ms;
+  display: flex;
+  flex-direction: column;
+  visibility: hidden;
+  background-color: white;
+  padding: 10px;
+  width: 200px;
+  z-index: 99;
+  position: absolute;
+}
+
+.marker:hover ~ .marker-info {
+  visibility: visible;
+  background-color: white;
+  padding: 10px;
+  width: 200px;
+  z-index: 99;
+  position: absolute;
+  border: 1px dotted black;
+}
